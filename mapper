@@ -1,0 +1,20 @@
+package com.example.mapper;
+
+import.example.dto.ActorDto;
+import.example.model.ActorModel;
+import.example.apache.ibatis.annotatins.Mapper;
+
+import java.util.List;
+
+@Mapper
+public interface ActorMapper {
+
+List<AcotrModel> selectActor (ActorDto actorDto);
+
+int addActor (ActorDto actorDto);
+
+int updateActor (ActorDto actorDto);
+
+int deleteActor (ActorDto actorDto);
+  
+}
