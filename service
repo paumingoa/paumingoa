@@ -1,0 +1,18 @@
+package com.example.service;
+
+import com.example.dto.ActorDto;
+import com.example.model.ActorModel;
+
+import java.utilList;
+
+public interface ActorService {
+
+List<ActorModel> selectActor (ActorDto actorDto)
+
+int addActor (ActorDto actorDto);
+
+int updateActor (ActorDto actorDto);
+
+int deleteActor (ActorDto actorDto);
+
+}
