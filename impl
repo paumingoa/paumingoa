@@ -1,0 +1,40 @@
+packaeg com.example.service.impl;
+
+import com.example.dto.ActorDto;
+import com.example.mapper.ActorMapper;
+import com.example.model.ActorModel;
+import com.example.service.ActorService
+import lombok.extern.slf4j.Slf4j;
+import.org.spingframework.beans.factory.annotation.Autowired;
+import org.springframeworkstereotype.Service;
+
+import java.util.List;
+
+@Slf4j
+@Service
+public class ActorServiceImpl implements ActorService {
+
+@Autowired
+private ActorMapper actorMapper;
+
+@Override
+public List<ActorModel> selectActor (ActorDto actorDto){
+return actorMapper.selectActor(actorDto);
+}
+
+@Override
+public int addActor(ActorDto actorDto) {
+return actorMapper.addActor(actorDto);
+}
+
+@Override
+public int updateActor(ActorDto actorDto) {
+return actorMapper.updateActor(actorDto);
+}
+
+@Override
+public int deleteActor(ActorDto actorDto) {
+return actorMapper.deleteActor(actorDto);
+}
+
+}
