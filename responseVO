@@ -1,0 +1,27 @@
+package com.example.vo;
+
+import lombok.Data;
+
+@Data
+public class ResponseVO<T>{
+
+private int code;
+
+private String message;
+
+private T data;
+
+public ResponseVO(){
+  
+}
+
+public RepsonseVO(int code, String message, T data){
+  this.code = code;
+  this.message = message;
+  this.data = data;
+}
+
+public RepsonseVO(int code, String message){
+  this.code = code;
+  this.message = message;
+}
