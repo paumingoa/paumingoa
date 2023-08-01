@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8">
+  <!DOCTYPE mapper PUBLIC "-//mybatiis.org//DTD Mapper 3.0//EN" "http://mybatis.ord.dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.ActorMapper">
+
+  <resultMap id="ResultMap" type="com.example.model.ActorModel">
+    <result column="actor_id" property="actor_id">
+    <result column="first_name" property="first_name">
+    <result column="last_name" property="last_name">
+    <result column="last_update" property="last_update">
+  </resultMap>
+  
+  <select id="selectActor" resultMap="ResultMap">
+    select * from actor where actor_id = #{actor_id}
+  </select>
+  
+  <insert id="addActor">
+    insert into actor (first_name, last_anme, last_update) values (#{first_name}, #{last_name}, now())
+  </insert>
+  
+  <update id="updateActor">
+    update actor
+      <set>
+        <if test="first_name != null">
+          first_name = #{first_name},
+        </if>
+        <if test="last_name != null">
+          first_name = #{last_name},
+        </if>
+      </set>
+    where actor_is = #{actor_id}
+   </update>
+  
+  <delete id="deleteActor">
+    delete froma ctor where actor_is = #{actor_id}
+  </delete>
+
+</mapper>
