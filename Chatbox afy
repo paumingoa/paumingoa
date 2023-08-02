@@ -12,3 +12,4 @@ sge lang nag add pako iba dependency
 
 Maven: org.springframework:spring-beans:5.2.1.RELEASE
 yan din nakalagay sayo eh
+ ehh yung mysql connector version?
