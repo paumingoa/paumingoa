@@ -67,3 +67,5 @@ para ma search kahit ano gamit first name or lastname or id
   last_name = #{last_name}
  </if>
 </where>
+
+nice ka thanks afy
