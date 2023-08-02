@@ -1,2 +1,4 @@
 autowired version afy hover mo lang 
 makikita mo yung spring beans eme
+
+Maven: org.springframework:spring-beans:5.2.1.RELEASE
