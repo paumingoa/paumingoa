@@ -49,3 +49,7 @@ controller muna
 
 anong kailangan mo sa controller?
 @Resource gamit mo hindi @Autowired
+
+okay na, pano nga ulit yung sa mapper 
+<where>
+para ma search kahit ano gamit first name or lastname or id
