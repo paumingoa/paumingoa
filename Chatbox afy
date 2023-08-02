@@ -48,3 +48,4 @@ afyy patingin nga ng Controller ko at ImPl
 controller muna
 
 anong kailangan mo sa controller?
+@Resource gamit mo hindi @Autowired
