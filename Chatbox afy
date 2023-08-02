@@ -14,3 +14,7 @@ Maven: org.springframework:spring-beans:5.2.1.RELEASE
 yan din nakalagay sayo eh
  ehh yung mysql connector version?
 di ako maka proceed sira dependecy hayp try ko muna to lahat thanks afy
+
+
+
+check mo nga yung application.properties sa akin ano mga nakalagay
