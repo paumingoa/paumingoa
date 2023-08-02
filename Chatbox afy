@@ -39,3 +39,5 @@ mybatis.configuration.default-statement-timeout=30
 
 eh yung @Mapper version afy anoh?
 Maven: org.mybatis:mybatis:3.5.11
+
+same lang lahat di nagana sa laptop na to 🥲
