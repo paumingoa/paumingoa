@@ -53,3 +53,17 @@ anong kailangan mo sa controller?
 okay na, pano nga ulit yung sa mapper 
 <where>
 para ma search kahit ano gamit first name or lastname or id
+
+<where>
+ <if test="actor_id != null and actor_id != ''">
+  actor_id = #{actor_id}
+ </if>
+
+<if test="first_name != null and first_name != ''">
+  first_name = #{first_name}
+ </if>
+
+<if test="last_name != null and last_name != ''">
+  last_name = #{last_name}
+ </if>
+</where>
