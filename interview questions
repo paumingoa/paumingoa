@@ -28,6 +28,11 @@ What is the difference between constructor and method of a class in Java?
 Why does the java array start with 0?
   The distance from the array's beginning is just an offset. There is no distance because the first element is at the beginning of the array. Consequently, the offset is 0.
 
+Define System.out.println().
+  It outputs the argument that was supplied to it. On the moitor, the println() method displays the findings. An objectname is typically used to call a method.
+
+What is the best way to inject dependency? Also, state the reason.
+  Constructor injection. A class requesting its dependencies through its function Object() is the most typical instance of dependency injection. Since the client cannot be constructed without the required dependencies, this guaranteed that it is always in a correct state.
 
 
 
