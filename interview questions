@@ -13,7 +13,21 @@ Differentiate between instance and local variables.
 What is an exception?
   An exception handling in Java is considered an unexpected event that can disrupt the program's normal flow. These events can be fixed through the process of Exception Handling.
 
+How do exceptions affect the program if it doesn't handle them?
+  If you don't deal with exceptions once it occurs the program will end and the code after the line where the exception occurred won't run.
+
 What is the final keyword in Java?
   The term final is a predefined word in Java that is used while declaring values to variable. When a value is declared using the final keyword, then the variable's value remains constant throughout the program's execution.
 
-  
+What is the difference between the program and the process?
+  A program is a collection of codes necessary to carry out a specific operation. When a progrmam is run, an active instance of the program called a process is launched. A process is begun by a program once is has run. The process carries out the program's specific instructions.
+
+What is the difference between constructor and method of a class in Java?
+  A method is a group of statements that work together to complete a certain tasks and return the outcome to the caller while the method has the option of working without returning anything.
+
+Why does the java array start with 0?
+  The distance from the array's beginning is just an offset. There is no distance because the first element is at the beginning of the array. Consequently, the offset is 0.
+
+
+
+
