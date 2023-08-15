@@ -1,0 +1,19 @@
+List features of the Java Programming Language?
+  1. Easy. Easy to learn.
+  2. Secured Feature. Java has a secured feature that helps develop a virus-free and tamper-free system for users.
+  3. OOP. OOP stands for Object-Oriented Programming. OOP signifies that in Java everything is considered an object.
+  4. Platform Independent. Java is compiled into platform-independent bytecode. This code is interpreted by the Virtual Machine on which the platform runs.
+
+Define package in Java.
+  The package is a collective bundle of classes and interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
+
+Differentiate between instance and local variables.
+  For instance, variables are declared inside a class and the scope of variables is limited to only a specific object while a local variable can be anywhere inside a method or a specific block of code and also the scope is limited to the code segment where the variable is declared.
+
+What is an exception?
+  An exception handling in Java is considered an unexpected event that can disrupt the program's normal flow. These events can be fixed through the process of Exception Handling.
+
+What is the final keyword in Java?
+  The term final is a predefined word in Java that is used while declaring values to variable. When a value is declared using the final keyword, then the variable's value remains constant throughout the program's execution.
+
+  
