@@ -34,5 +34,30 @@ Define System.out.println().
 What is the best way to inject dependency? Also, state the reason.
   Constructor injection. A class requesting its dependencies through its function Object() is the most typical instance of dependency injection. Since the client cannot be constructed without the required dependencies, this guaranteed that it is always in a correct state.
 
+Explain "this" keyword in java.
+  The "this" is used to refer to the current class properties like method, instance, variable and constructors.
+
+Explain "super" keyword in java.
+  The "super" keyword refers to the immediate parent class object.
+
+Explain the term enumeration in Java.
+  Enumeration or enum is an interface in Java. Enum allows the sequential access of the elements stored in a collection in Java.
+
+What is JDBC?
+  JDBC means Java Database Connector. It is used to establish connectivity between an existing database and a Java application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
