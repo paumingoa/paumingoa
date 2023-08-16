@@ -6,7 +6,12 @@ OOP (Object Oriented Programming)
 4 Pillars of OOP
   1. Inheritance - a class inherits the methods and properties of another class (allows developer to reuse code and easily add new features)
   2. Polymorphism - create multiple methods with the same name but with different implementations (makes it easier to create flexible systems that are easier to understand and maintain)
-  3. Encapsulation - the process of wrapping data and related functions into a single unit (object)
+  3. Encapsulation - the process of wrapping data and related functions into a single unit (object); encapsulation is implemented using access modifiers which control the visibility of variables and methods within a class
+              Access Modifiers
+                  a. Public - public variable and methods can be accessed from anywhere, including ourside the class (whole project)
+                  b. Private - private variable and moethods can be accessed within the class they are defined in (class level)
+                  c. Protected - protected variables and methods can be accessed within the same class and subclasses (package and subclass)
+                  d. Default - (package level)
   4. Abstraction - is the process of hiding unnecessary details of an object's internal structure
 
 
