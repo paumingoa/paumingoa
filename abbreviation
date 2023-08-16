@@ -4,7 +4,7 @@ AWT - Abstract Windowing Toolkit
 BLOB - Binary Large Object
 DB - Database
 DBA - Database Administrator
-DBMS - Dataabse Management System
+DBMS - Database Management System
 DDL - Data Definition Language
 DML - Data Manipulation Language
 DNS - Domain Name Server / Dynamic Naming System
@@ -14,7 +14,7 @@ HTTP - Hypertext Transfer Protocol
 IDE - Integrated Development Environment
 IP - Internet Protocol
 IS - Information Services
-ISP - INternet Service Provider
+ISP - Internet Service Provider
 J2EE - Java 2 Enterprise Edition
 JAR - Java Archive
 JCK - Java Compatibility Kit
@@ -24,11 +24,11 @@ JFC - Java Foundation Classes
 JIT - Just In Time
 JRE - Java Runtime Environment
 JVM - Java Virtual Machine
-OOP - OBject Oriented Programming
+OOP - Object Oriented Programming
 ORDMBS - Object-Relational Database Management System
 RAM - Random Access Memory
 RAS - Remote Access Service
-RDBMS - RelationalDatabase MAnagement System
+RDBMS - Relational Database MAnagement System
 ROM - Read Only Memory
 SOAP - Simpple Object Access Protocol
 SQL - Structured Query Language
@@ -37,4 +37,4 @@ SRAM - Static Random Access Memory
 UI - User Interface
 UML - Unified Modeling Language
 URL - Universal Resource Locator
-XML - Extensible MarkupLanguage
+XML - Extensible Markup Language
