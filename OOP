@@ -11,8 +11,13 @@ OOP (Object Oriented Programming)
                   a. Public - public variable and methods can be accessed from anywhere, including ourside the class (whole project)
                   b. Private - private variable and moethods can be accessed within the class they are defined in (class level)
                   c. Protected - protected variables and methods can be accessed within the same class and subclasses (package and subclass)
-                  d. Default - (package level)
+                  d. Default - declared without any access modifier (package level)
   4. Abstraction - is the process of hiding unnecessary details of an object's internal structure
+
+Java try and catch
+  try - allows you to define a block of code to be tested for errors while it is being executed
+  catch - allows you to define a block of code to be executed if an error occurs in the try block
+  finally - lets you execute a code after try catch regardless of the result
 
 
 
