@@ -49,35 +49,27 @@ What is JDBC?
 What is the main function in springboot and its role?
   @SpringBootApplication, it loads the container and many default components.
 
+What is Controller and RestController?
+  @Controller is used to return the specified page and @RestController returns JSON, XML or mediTypeContent.
+
 What are the different formats of a spring configuration file?
   Properties and yml.
 
-(Mysql) What is the purpose of an index?
+(MySql) Give some SQL function examples and what they do.
+  SELECT, INSERT, UPDATE, DELETE
+
+(MySql) What is the purpose of an index?
   To speed up searching of data in database tables but sacrifices the insertion.
 
-(Mysql) What is the basic rule in creating an index?
+(MySql) What is the basic rule in creating an index?
   Leftmost rule - the leftmost part of the index will be prioritized. Once not found, the query will not use the index.
 
-(Mysql) Give some common practices in optimizing SQL performance.
+(MySql) Give some common practices in optimizing SQL performance.
   Limit the index on search fields only.
   Limit the number of columns in a table, create a subtable with a reference ID instead.
   Avoid using functions in where clause if it is avoidable, if not, limit the use of functions to a few.
   Optimize field type based on the reality when it is used.
 
-(Mysql) What is the difference of GROUP_BY and ORDER_BY?
+(MySql) What is the difference of GROUP_BY and ORDER_BY?
   ORDER_BY - sorts the resultSet
   GROUP_BY - groups the rows with the same value
-
-
-
-
-
-
-
-
-
-
-
-
-
-
