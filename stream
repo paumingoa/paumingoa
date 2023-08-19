@@ -12,7 +12,7 @@ public class Test{
 
     // create a list of integers
     List<Integer> numbers = Arrays.asList(5,8,6,3,2,10);
-    System.out.println(numbers);
+    System.out.println("array of integers : " + numbers);
 
     // stream
     // demonstration of map method
@@ -21,7 +21,7 @@ public class Test{
 
     // create a list of string
     List<String> names = Arrays.asList("pau","megu","jp","kingston");
-    System.out.println("names" + names);
+    System.out.println("array of names : " + names);
 
     // filter string
     List<String> result = names.stream().filter(p->p.startsWith("p")).collect(Collectors.toList());
