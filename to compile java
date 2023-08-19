@@ -1,0 +1,10 @@
+cmd
+set PATH=%PATH%;C:\ProgramFiles\Java\jdk1.8.0_261\bin
+javac Megu.java
+java Megu
+
+
+
+
+C:\ProgramFiles\Java\jdk1.8.0_261\bin ------> Location of javac
+before compiling change directory to where the project is saved
