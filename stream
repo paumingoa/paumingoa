@@ -6,16 +6,26 @@ public class Test{
   public static void main(String[] args){
     // array
     int[] arr = {5,8,4,6,9,1};
-    System.out.println("Before sorting : " + Array.toString(arr));
+    System.out.println("Before sorting : " + Arrays.toString(arr));
     Arrays.sort(arr);
-    System.out.println("After sorting : " + Array.toString(arr);
+    System.out.println("After sorting : " + Arrays.toString(arr);
 
+    // create a list of integers
+    List<Integer> numbers = Arrays.asList(5,8,6,3,2,10);
+    System.out.println(numbers);
 
+    // stream
+    // demonstration of map method
+    List<Integer> square = numbers.stream().map(x->x*x).collect(Collectors.toList());
+    System.out.println("square of numbers : " + square);
 
+    // create a list of string
+    List<String> names = Arrays.asList("pau","megu","jp","kingston");
+    System.out.println("names" + names);
 
+    // filter string
+    List<String> result = names.stream().filter(p->p.startsWith("p")).collect(Collectors.toList());
+    System.out.println("names starts with 'p' : " + result);
 
-    
   }
-
-
 }
