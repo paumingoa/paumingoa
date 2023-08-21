@@ -72,4 +72,21 @@ What are the different formats of a spring configuration file?
 
 (MySql) What is the difference of GROUP_BY and ORDER_BY?
   ORDER_BY - sorts the resultSet
-  GROUP_BY - groups the rows with the same value
+  GROUP_BY - groups the rows with the same 
+
+
+What is the difference between an abstract class and an interface?
+Explain the concept of object-oriented programming and its pillars.
+What are the different types of memory in Java?
+Describe the process of exception handling in Java.
+What is the purpose of the static keyword?
+Explain the differences between ArrayList and LinkedList.
+What is method overloading and method overriding? How do they differ?
+How does garbage collection work in Java?
+What is the equals() method used for, and how is it different from ==?
+What is a thread, and how can you create and manage threads in Java?
+Explain the final keyword in Java and how it's used.
+What is a Java annotation, and can you provide some built-in annotations?
+Describe the concept of synchronization and how it's used in Java.
+What is the purpose of the try-with-resources statement?
+Explain the concept of Java's "boxing" and "unboxing".
