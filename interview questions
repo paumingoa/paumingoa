@@ -16,6 +16,9 @@ What is an exception?
 How do exceptions affect the program if it doesn't handle them?
   If you don't deal with exceptions once it occurs the program will end and the code after the line where the exception occurred won't run.
 
+Describe the process of exception handling in Java.
+Try-catch is the common method in handling exceptions, put the code you want to run in the try block and any java exception that the code throws are caught by the catch block.
+
 What is the final keyword in Java?
   The term final is a predefined word in Java that is used while declaring values to variable. When a value is declared using the final keyword, then the variable's value remains constant throughout the program's execution.
 
@@ -76,11 +79,17 @@ What are the different formats of a spring configuration file?
 
 
 What is the difference between an abstract class and an interface?
-Explain the concept of object-oriented programming and its pillars.
+Abstract classes can have method with implementations while interface provides absolute abstraction and can't have any method implementations.
+
 What are the different types of memory in Java?
-Describe the process of exception handling in Java.
+
+
 What is the purpose of the static keyword?
+it is used for memory management, and also it is used to share the same variable or method of a given class.
+
 Explain the differences between ArrayList and LinkedList.
+Arraylist uses dynamic array to store elements and its better in storing and accessing data while LinkedList uses double linked list to store elements and its better for manipulating data.
+
 What is method overloading and method overriding? How do they differ?
 How does garbage collection work in Java?
 What is the equals() method used for, and how is it different from ==?
