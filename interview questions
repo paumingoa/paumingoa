@@ -84,6 +84,9 @@ How do you create a Spring boot project using Maven?
 How to connect Spring Boot application to a database using JDBC?
   Configure the JDBC properties in the application.properties or application.yml file.
 
+How do you connect Spring Boot application to a database using JPA?
+  Configure the JPA properties in the application.properties or application.yml file.
+
 What are the different formats of a spring configuration file?
   Properties and yml.
 
@@ -97,9 +100,24 @@ What is Controller and RestController?
   @Controller is used to return the specified page and @RestController returns JSON, XML or mediTypeContent.
 
 Spring vs. Spring Boot?
-  Spring is a framework that provides modules for building exterprise-level applications while Spring Boot is a framework that simplifies Spring development by providing a pre-configured environment that enables developers to focus on building the application logic.
+  Spring is a framework that provides modules for building enterprise-level applications while Spring Boot is a framework that simplifies Spring development by providing a pre-configured environment that enables developers to focus on building the application logic.
+
+What are Spring Boot Starters?
+  Spring Boot Starters are a set of pre-configured dependencies that can be easily included in your project to quickly get started with common features or technologies.
+
+What is Spring Boot Actuator?
+  Its a set of features that provides monitoring and management capabilities for your Spring Boot application.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is database?
+  It is an organized collection of data, stored and retrieved digitally from remote or local computer.
+
+What is DBMS?
+  DBMS stands for Database Management System, its a system software responsible for creation, retrieval, updation and management of the database.
+
+What is SQL?
+  It is a standard language for retrieving and manipulating structured databases.
 
 Give some SQL function examples and what they do.
   SELECT, INSERT, UPDATE, DELETE
@@ -120,7 +138,8 @@ What is the difference of GROUP_BY and ORDER_BY?
   ORDER_BY - sorts the resultSet
   GROUP_BY - groups the rows with the same 
 
-
+What are tables and fields?
+  A table is an organized collection of data stored in the form of rows and columns. The columns in a table are called fields.
 
 
 
