@@ -58,6 +58,12 @@ Explain the differences between ArrayList and LinkedList.
 What is JDBC?
   JDBC means Java Database Connector. It is used to establish connectivity between an existing database and a Java application.
 
+What is the equals() method used for, and how is it different from ==?
+  The == checks if both objects point to the same memory location while .equals() evaluates to the comparison of values in the objects.
+
+What is method overloading and method overriding? How do they differ?
+  We can define multiple methods with the same name but with different parameters in method overloading while the method overriding provides the specific implementation for the method that is already provided in the parent class.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What is Spring Boot and what are the benefits?
@@ -141,15 +147,22 @@ What is the difference of GROUP_BY and ORDER_BY?
 What are tables and fields?
   A table is an organized collection of data stored in the form of rows and columns. The columns in a table are called fields.
 
+What is Primary key?
+  Its a constraint uniquely identifies each row in a table. It must contain unique values and has an implicit not null constraint.
 
+What are constraints in SQL?
+  NOT NULL - restrcits null value from being inserted into a column.
+  CHECK - verifies that all values in a field satisfy a condition.
+  DEFAULT - automatically assigns a default value if no value has been specified for the field.
+  UNIQUE - ensures unique values to be inserted into the field.
+  INDEX - indexes a field providing faster retrieval of records.
+  PRIMARY KEY - uniquely identifies each record in a table.
+  FOREIGN KEY - ensures referential integrity for a record in another table.
 
 
 What are the different types of memory in Java?
-What is method overloading and method overriding? How do they differ?
 How does garbage collection work in Java?
-What is the equals() method used for, and how is it different from ==?
 What is a thread, and how can you create and manage threads in Java?
-Explain the final keyword in Java and how it's used.
 What is a Java annotation, and can you provide some built-in annotations?
 Describe the concept of synchronization and how it's used in Java.
 What is the purpose of the try-with-resources statement?
