@@ -60,14 +60,44 @@ What is JDBC?
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+What is Spring Boot and what are the benefits?
+  It represents a fusion of lightweight Spring application framework, configuration annotations and embedded HTTP server. It aids the development of fast, responsive and secure web applications.
+
+What are the key dependencies of Spring Boot?
+  spring-boot-starter-parent
+  spring-boot-maven plugin
+  spring-boot-starter-test
+  spring-boot-starter-security
+  spring-boot-starteractuator
+  spring-boot-starter-web
+
 What is the main function in springboot and its role?
   @SpringBootApplication, it loads the container and many default components.
+
+What are the advantages of Spring Boot?
+  It is very simple to create Spring-based apps in Java.
+  It eliminates the requirement to write.
+  It cuts down the development time and also increases the output.
+
+How do you create a Spring boot project using Maven?
+
+How to connect Spring Boot application to a database using JDBC?
+  Configure the JDBC properties in the application.properties or application.yml file.
+
+What are the different formats of a spring configuration file?
+  Properties and yml.
+
+What is the @RestController annotation in Spring Boot?
+  @RestController is a Spring Boot annotation used to create RESTful web services.
+
+What is @RequestMapping annotaion in Spring Boot?
+  @RequestMapping is a Spring Boot annotation used to map a URL request to a controller method.
 
 What is Controller and RestController?
   @Controller is used to return the specified page and @RestController returns JSON, XML or mediTypeContent.
 
-What are the different formats of a spring configuration file?
-  Properties and yml.
+Spring vs. Spring Boot?
+  Spring is a framework that provides modules for building exterprise-level applications while Spring Boot is a framework that simplifies Spring development by providing a pre-configured environment that enables developers to focus on building the application logic.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
