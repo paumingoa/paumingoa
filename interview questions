@@ -17,7 +17,7 @@ How do exceptions affect the program if it doesn't handle them?
   If you don't deal with exceptions once it occurs the program will end and the code after the line where the exception occurred won't run.
 
 Describe the process of exception handling in Java.
-Try-catch is the common method in handling exceptions, put the code you want to run in the try block and any java exception that the code throws are caught by the catch block.
+  Try-catch is the common method in handling exceptions, put the code you want to run in the try block and any java exception that the code throws are caught by the catch block.
 
 What is the final keyword in Java?
   The term final is a predefined word in Java that is used while declaring values to variable. When a value is declared using the final keyword, then the variable's value remains constant throughout the program's execution.
@@ -26,7 +26,7 @@ What is the difference between the program and the process?
   A program is a collection of codes necessary to carry out a specific operation. When a progrmam is run, an active instance of the program called a process is launched. A process is begun by a program once is has run. The process carries out the program's specific instructions.
 
 What is the difference between constructor and method of a class in Java?
-  A method is a group of statements that work together to complete a certain tasks and return the outcome to the caller while the method has the option of working without returning anything.
+  A constructor is used to initialize and object and a method is consist of java code to be executed.
 
 Why does the java array start with 0?
   The distance from the array's beginning is just an offset. There is no distance because the first element is at the beginning of the array. Consequently, the offset is 0.
@@ -46,8 +46,19 @@ Explain "super" keyword in java.
 Explain the term enumeration in Java.
   Enumeration or enum is an interface in Java. Enum allows the sequential access of the elements stored in a collection in Java.
 
+What is the difference between an abstract class and an interface?
+  Abstract classes can have method with implementations while interface provides absolute abstraction and can't have any method implementations.
+
+What is the purpose of the static keyword?
+  It is used for memory management, and also it is used to share the same variable or method of a given class.
+
+Explain the differences between ArrayList and LinkedList.
+  Arraylist uses dynamic array to store elements and its better in storing and accessing data while LinkedList uses double linked list to store elements and its better for manipulating data.
+
 What is JDBC?
   JDBC means Java Database Connector. It is used to establish connectivity between an existing database and a Java application.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What is the main function in springboot and its role?
   @SpringBootApplication, it loads the container and many default components.
@@ -58,38 +69,33 @@ What is Controller and RestController?
 What are the different formats of a spring configuration file?
   Properties and yml.
 
-(MySql) Give some SQL function examples and what they do.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Give some SQL function examples and what they do.
   SELECT, INSERT, UPDATE, DELETE
 
-(MySql) What is the purpose of an index?
+What is the purpose of an index?
   To speed up searching of data in database tables but sacrifices the insertion.
 
-(MySql) What is the basic rule in creating an index?
+What is the basic rule in creating an index?
   Leftmost rule - the leftmost part of the index will be prioritized. Once not found, the query will not use the index.
 
-(MySql) Give some common practices in optimizing SQL performance.
+Give some common practices in optimizing SQL performance.
   Limit the index on search fields only.
   Limit the number of columns in a table, create a subtable with a reference ID instead.
   Avoid using functions in where clause if it is avoidable, if not, limit the use of functions to a few.
   Optimize field type based on the reality when it is used.
 
-(MySql) What is the difference of GROUP_BY and ORDER_BY?
+What is the difference of GROUP_BY and ORDER_BY?
   ORDER_BY - sorts the resultSet
   GROUP_BY - groups the rows with the same 
 
 
-What is the difference between an abstract class and an interface?
-Abstract classes can have method with implementations while interface provides absolute abstraction and can't have any method implementations.
+
+
+
 
 What are the different types of memory in Java?
-
-
-What is the purpose of the static keyword?
-it is used for memory management, and also it is used to share the same variable or method of a given class.
-
-Explain the differences between ArrayList and LinkedList.
-Arraylist uses dynamic array to store elements and its better in storing and accessing data while LinkedList uses double linked list to store elements and its better for manipulating data.
-
 What is method overloading and method overriding? How do they differ?
 How does garbage collection work in Java?
 What is the equals() method used for, and how is it different from ==?
