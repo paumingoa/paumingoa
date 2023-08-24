@@ -64,6 +64,15 @@ What is the equals() method used for, and how is it different from ==?
 What is method overloading and method overriding? How do they differ?
   We can define multiple methods with the same name but with different parameters in method overloading while the method overriding provides the specific implementation for the method that is already provided in the parent class.
 
+How many types of memory areas are located by JVM?
+  5.
+  5 Types:
+  1. Class area - stores class code, variable code, method code and the constructor of a JAva program. It stores class-level data of every class such as the runtime constant pool, fields and method data, the code for the methods.
+  2. Heap - is the memory block where objects are created or objects are stored. It allocates memory for the class interfaces and arrays. It is used to allocate memory to objects at run time..
+  3. Stack - Each thread has a private JVM stack, created at the same time as the threas. It is used to store data and partial results which will be needed while returning value for the method and performing dynamic linking.
+  4. Program Counter Register - 
+  5. NAtive Method Stack - also called C stacks, native method stacks are not written in Java language. This memory is allocated for each thread when its created and it can be fixed or dynamic nature.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What is Spring Boot and what are the benefits?
