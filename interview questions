@@ -70,14 +70,24 @@ How many types of memory areas are located by JVM?
   1. Class area - stores class code, variable code, method code and the constructor of a JAva program. It stores class-level data of every class such as the runtime constant pool, fields and method data, the code for the methods.
   2. Heap - is the memory block where objects are created or objects are stored. It allocates memory for the class interfaces and arrays. It is used to allocate memory to objects at run time..
   3. Stack - Each thread has a private JVM stack, created at the same time as the threas. It is used to store data and partial results which will be needed while returning value for the method and performing dynamic linking.
-  4. Program Counter Register - 
+  4. Program Counter Register - each JVM thread that carries out the task of a specific method has a program counter register associated with it.
   5. NAtive Method Stack - also called C stacks, native method stacks are not written in Java language. This memory is allocated for each thread when its created and it can be fixed or dynamic nature.
+
+How does ConcurrentHashMap work in Java?
+  It works by allowing each thread to safely access and modify the data without having to worry about other threads interfering.
+
+
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What is Spring Boot and what are the benefits?
   It represents a fusion of lightweight Spring application framework, configuration annotations and embedded HTTP server. It aids the development of fast, responsive and secure web applications.
 
+What is dependency injection?
+  Its a programming technique that makes a class independent of its dependencies.
+  
 What are the key dependencies of Spring Boot?
   spring-boot-starter-parent
   spring-boot-maven plugin
@@ -85,6 +95,14 @@ What are the key dependencies of Spring Boot?
   spring-boot-starter-security
   spring-boot-starteractuator
   spring-boot-starter-web
+
+What are the basic annotations that Spring offers?
+  @SpringBootApplication - enables Spring Boot autoconfiguration and component scanning.
+  @Controller - marks the class as web controller, capable of handling the requests.
+  @RequestMapping - maps HTTP request with a path to a controller method.
+  @Service - indicates that an annotated class is a service.
+  @Autowired - marks a constructor, field or setter method to be autowired by Spring dependency injection.
+  @Repository - indicates that an annotated class is a repository, which is an abstraction of data access and storage.
 
 What is the main function in springboot and its role?
   @SpringBootApplication, it loads the container and many default components.
