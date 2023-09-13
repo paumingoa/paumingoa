@@ -4,6 +4,9 @@ List features of the Java Programming Language?
   3. OOP. OOP stands for Object-Oriented Programming. OOP signifies that in Java everything is considered an object.
   4. Platform Independent. Java is compiled into platform-independent bytecode. This code is interpreted by the Virtual Machine on which the platform runs.
 
+What is OOP?
+  OOP means Object Oriented Progrmming, creating objects that contains data and methods.
+
 Define package in Java.
   The package is a collective bundle of classes and interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
 
@@ -65,7 +68,7 @@ What is method overloading and method overriding? How do they differ?
   We can define multiple methods with the same name but with different parameters in method overloading while the method overriding provides the specific implementation for the method that is already provided in the parent class.
 
 How many types of memory areas are located by JVM?
-  5.
+  There are 5 types of memory areas.
   5 Types:
   1. Class area - stores class code, variable code, method code and the constructor of a JAva program. It stores class-level data of every class such as the runtime constant pool, fields and method data, the code for the methods.
   2. Heap - is the memory block where objects are created or objects are stored. It allocates memory for the class interfaces and arrays. It is used to allocate memory to objects at run time..
@@ -75,10 +78,6 @@ How many types of memory areas are located by JVM?
 
 How does ConcurrentHashMap work in Java?
   It works by allowing each thread to safely access and modify the data without having to worry about other threads interfering.
-
-
-
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
