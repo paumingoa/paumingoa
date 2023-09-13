@@ -1,4 +1,5 @@
 OOP (Object Oriented Programming)
+  - In OOP, software is structured around the concept of objects which are instances of classes.
   - faster and easier to execute
   - provides a clear structure for the programs
   - makes the code easier to maintain, modify and debug
@@ -9,8 +10,8 @@ OOP (Object Oriented Programming)
                    - is the ability of an object to take on many forms.
              Method overloading - used to define multiple methods with the same name but with different parameters.
              Method overriding - the super class and the sub class have the same methods including the parameters
-  3. Encapsulation - the process of wrapping data and related functions into a single unit (object); encapsulation is implemented using access modifiers which control the visibility of variables and methods within a class
-                   - the process of combining data and codes into a single unit. We encapsulate a class with the use of access modifiers. It helps keep code organized and helps prevent accidental data manipulation and changes.
+  3. Encapsulation - the process of wrapping data and related functions into a single unit (object).
+                   - the process of combining data and codes into a single unit. We encapsulate a class with the use of access modifiers which control the visibility of variables and methods within a class. It helps keep code organized and helps prevent accidental data manipulation and changes.
              Access Modifiers
                   a. Public - public variable and methods can be accessed from anywhere, including ourside the class (whole project)
                   b. Private - private variable and methods can be accessed within the class they are defined in (class level)
@@ -26,8 +27,8 @@ Java try and catch
 Java Constructor - a constructor in Java is similar to a method that is invoked when an object of the class is created. Unlike in Java methods, a constructor has the same name as the that of the class and does not have any return type.
 
 Types of Constructor:
-1. No-Arg Construcotr - similar to a metod, a Java constructor may or may not have any parameters (arguments).
+1. No-Arg Constructor - similar to a metod, a Java constructor may or may not have any parameters (arguments).
 2. Parameterized Constructor - a Java constructor can also accept one or more parameters.
-3. Default Conctructor - if we do not create any constructor, the JAva compiler automatically create a no-arg constructor during the execution of the program.
+3. Default Conctructor - if we do not create any constructor, the Java compiler automatically create a no-arg constructor during the execution of the program.
 
 
