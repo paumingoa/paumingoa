@@ -12,7 +12,7 @@ OOP (Object Oriented Programming)
   3. Encapsulation - the process of wrapping data and related functions into a single unit (object); encapsulation is implemented using access modifiers which control the visibility of variables and methods within a class
               Access Modifiers
                   a. Public - public variable and methods can be accessed from anywhere, including ourside the class (whole project)
-                  b. Private - private variable and moethods can be accessed within the class they are defined in (class level)
+                  b. Private - private variable and methods can be accessed within the class they are defined in (class level)
                   c. Protected - protected variables and methods can be accessed within the same class and subclasses (package and subclass)
                   d. Default - declared without any access modifier (package level)
   4. Abstraction - is the process of hiding unnecessary details of an object's internal structure
@@ -24,7 +24,7 @@ Java try and catch
 
 Java Constructor - a constructor in Java is similar to a method that is invoked when an object of the class is created. Unlike in Java methods, a constructor has the same name as the that of the class and does not have any return type.
 
-Types of COnstructor:
+Types of Constructor:
 1. No-Arg Construcotr - similar to a metod, a Java constructor may or may not have any parameters (arguments).
 2. Parameterized Constructor - a Java constructor can also accept one or more parameters.
 3. Default Conctructor - if we do not create any constructor, the JAva compiler automatically create a no-arg constructor during the execution of the program.
