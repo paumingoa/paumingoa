@@ -185,6 +185,10 @@ What are constraints in SQL?
   PRIMARY KEY - uniquely identifies each record in a table.
   FOREIGN KEY - ensures referential integrity for a record in another table.
 
+What is the difference of WHERE and HAVING?
+  The WHERE clause works on row's data, it selects data row by row basis. HAVING clause works in aggregated data.
+  The WHERE clause acts as pre-filter while HAVING clause acts as post filter.
+
 
 What are the different types of memory in Java?
 How does garbage collection work in Java?
