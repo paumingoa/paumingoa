@@ -5,7 +5,7 @@ List features of the Java Programming Language?
   4. Platform Independent. Java is compiled into platform-independent bytecode. This code is interpreted by the Virtual Machine on which the platform runs.
 
 What is OOP?
-  OOP means Object Oriented Progrmming, creating objects that contains data and methods.
+  OOP means is about creating objects that contain both data and methods. It provides a clear structure for the programs and makes the code easier to maintain, modify and debug.
 
 Define package in Java.
   The package is a collective bundle of classes and interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
@@ -22,7 +22,7 @@ How do exceptions affect the program if it doesn't handle them?
 Describe the process of exception handling in Java.
   Try-catch is the common method in handling exceptions, put the code you want to run in the try block and any java exception that the code throws are caught by the catch block.
 
-What is the final keyword in Java?
+What is the "final" keyword in Java?
   The term final is a predefined word in Java that is used while declaring values to variable. When a value is declared using the final keyword, then the variable's value remains constant throughout the program's execution.
 
 What is the difference between the program and the process?
@@ -74,10 +74,19 @@ How many types of memory areas are located by JVM?
   2. Heap - is the memory block where objects are created or objects are stored. It allocates memory for the class interfaces and arrays. It is used to allocate memory to objects at run time..
   3. Stack - Each thread has a private JVM stack, created at the same time as the threas. It is used to store data and partial results which will be needed while returning value for the method and performing dynamic linking.
   4. Program Counter Register - each JVM thread that carries out the task of a specific method has a program counter register associated with it.
-  5. NAtive Method Stack - also called C stacks, native method stacks are not written in Java language. This memory is allocated for each thread when its created and it can be fixed or dynamic nature.
+  5. Native Method Stack - also called C stacks, native method stacks are not written in Java language. This memory is allocated for each thread when its created and it can be fixed or dynamic nature.
 
 How does ConcurrentHashMap work in Java?
   It works by allowing each thread to safely access and modify the data without having to worry about other threads interfering.
+
+What is the difference between EAR file, JAR file and WAR file?
+  (EAR) The enterprise applications that are to be deployed in EJB container are to be placed in an .ear file.
+  (JAR) A .jar file contains .class files, reosurces like .java and property fileS; The .jar file can be appended to environment variable CLASSPATH in order to any java application to access from remote package.
+  (WAR) The web application in Java that is to be deployed on servlet or JSP container is to converted into .war files and can be deployed using Tomcat browser; .war file can have .jsp, html, .js and any files which would be necessary for a web application.
+
+ORM (Hibernate / JPA)
+  JPA is a specification in Java taht is used to access, manage and persist data between Java object and relational database. JPA is also considered he standard for Object Relational Mapping (ORM).
+  Hibernate is used to store the Java objects in the relational database system. It is an implementation of JPA so it follows the common standards provided by the JPA.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
