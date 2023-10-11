@@ -1,11 +1,11 @@
+What is OOP?
+  OOP means Object Oriented Programming. It is about creating objects that contain both data and methods. It provides a clear structure for the programs and makes the code easier to maintain, modify and debug.
+
 List features of the Java Programming Language?
   1. Easy. Easy to learn.
   2. Secured Feature. Java has a secured feature that helps develop a virus-free and tamper-free system for users.
   3. OOP. OOP stands for Object-Oriented Programming. OOP signifies that in Java everything is considered an object.
   4. Platform Independent. Java is compiled into platform-independent bytecode. This code is interpreted by the Virtual Machine on which the platform runs.
-
-What is OOP?
-  OOP means is about creating objects that contain both data and methods. It provides a clear structure for the programs and makes the code easier to maintain, modify and debug.
 
 What is an Object and Class?
   Object is used to represent real-world entites that have certain state (attributes), behavior (method) and identity.
