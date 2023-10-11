@@ -101,6 +101,11 @@ What is Threading?
   1. extend the Thread class and override the run() method
   2. impement the Runnable interface
 
+What is JDK, JRE and JVM?
+  JDK (Java Development Kit) contains tools needed for Java development.
+  JRE (Java Runtime Environment) is required to run Java applications.
+  JVM (Java Virtual Machine) executes compiled Java bytecode.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What is Spring Boot and what are the benefits?
