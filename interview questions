@@ -7,6 +7,10 @@ List features of the Java Programming Language?
 What is OOP?
   OOP means is about creating objects that contain both data and methods. It provides a clear structure for the programs and makes the code easier to maintain, modify and debug.
 
+What is an Object and Class?
+  Object is used to represent real-world entites that have certain state (attributes), behavior (method) and identity.
+  Classes are composed os name, attributes and methods. We use the "class" keyword to create a class.
+
 Define package in Java.
   The package is a collective bundle of classes and interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
 
@@ -87,6 +91,15 @@ What is the difference between EAR file, JAR file and WAR file?
 ORM (Hibernate / JPA)
   JPA is a specification in Java taht is used to access, manage and persist data between Java object and relational database. JPA is also considered he standard for Object Relational Mapping (ORM).
   Hibernate is used to store the Java objects in the relational database system. It is an implementation of JPA so it follows the common standards provided by the JPA.
+
+What is Garbage Collection?
+  When we create more objects it is stored in memory and a Java memory can be full and it can cause the program to slow down and even crash so to avoid this from happening we can use the Garbage collection to identify and remove the objects that are no longer in use and it will free up the memory.
+
+What is Threading?
+  Thread allows a program to operate more efficiently by doing multiple things at the same time. 
+  There are 2 ways to create a thread:
+  1. extend the Thread class and override the run() method
+  2. impement the Runnable interface
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
