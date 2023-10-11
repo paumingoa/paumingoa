@@ -15,3 +15,7 @@ Spring boot
 Serializable objects
 Dependency injection
 
+-----------
+
+
+1. since we follow agile software development using scrum, We will have our Sprint planning or requirements review then we will have our daily scrum meeting this also includes the task delegations then we will have 1 week development for the Iteration tasks, then we also do some joint debugging with frontend before the smoke test for FAT environment deployment. after this we will have 2-3 days for bug fixing if there is some bugs that occur during the First round of testing. then if all bugs are fixed and there is no more issues we proceed with UAT until Production deployment.
