@@ -1,13 +1,9 @@
 OOP (Object Oriented Programming)
-  - In OOP, software is structured around the concept of objects which are instances of classes.
-  - faster and easier to execute
-  - provides a clear structure for the programs
-  - makes the code easier to maintain, modify and debug
+  - is about creating objects that contain both data and methods. It provides a clear structure for the programs and makes the code easier to maintain, modify and debug.
 
 4 Pillars of OOP
   1. Inheritance - a class inherits the methods and properties of another class (allows developer to reuse code and easily add new features)
-  2. Polymorphism - create multiple methods with the same name but with different implementations (makes it easier to create flexible systems that are easier to understand and maintain)
-                   - is the ability of an object to take on many forms.
+  2. Polymorphism - it means more than one form, the same entity can perform different scenarios (makes it easier to create flexible systems that are easier to understand and maintain)
              Method overloading - used to define multiple methods with the same name but with different parameters.
              Method overriding - the super class and the sub class have the same methods including the parameters
   3. Encapsulation - the process of wrapping data and related functions into a single unit (object).
@@ -16,8 +12,8 @@ OOP (Object Oriented Programming)
                   a. Public - public variable and methods can be accessed from anywhere, including ourside the class (whole project)
                   b. Private - private variable and methods can be accessed within the class they are defined in (class level)
                   c. Protected - protected variables and methods can be accessed within the same class and subclasses (package and subclass)
-                  d. Default - declared without any access modifier (package level)
-  4. Abstraction - is the process of hiding unnecessary details of an object's internal structure. We  can achieve abstraction by using abstract classes and interfaces.
+                  d. Default - declared without any access modifier, the access level of default modifier is only within the package (package level)
+  4. Abstraction - is the process of hiding unnecessary details of an object's internal structure. We can achieve abstraction by using abstract classes and interfaces.
 
 Java try and catch
   try - allows you to define a block of code to be tested for errors while it is being executed
