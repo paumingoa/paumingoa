@@ -6,11 +6,6 @@ Navicat 15.0 - MySQL IDE
 mysql-installer-community-8.0.22.0
 Postman 8.6.2
 Git 2.3.0
----------------
-Core Java
-Spring boot
-Serializable objects
-Dependency injection
 -----------
 Iteration flow:
 
@@ -20,3 +15,8 @@ Iteration flow:
 4. do some joint debugging with frontend before the smoke test for FAT environment deployment
 5. 2-3 days for bug fixing if there is some bugs that occur during the First round of testing
 6. if all bugs are fixed and there is no more issues we proceed with UAT until Production deployment
+-------------
+Core Java
+Spring boot
+Serializable objects
+Dependency injection
