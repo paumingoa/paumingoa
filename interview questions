@@ -116,7 +116,7 @@ What is dependency injection?
   
 What are the key dependencies of Spring Boot?
   spring-boot-starter-parent
-  spring-boot-maven plugin
+  spring-boot-maven-plugin
   spring-boot-starter-test
   spring-boot-starter-security
   spring-boot-starter-actuator
@@ -150,7 +150,7 @@ What are the different formats of a spring configuration file?
   Properties and yml.
 
 What is the difference in @Resource and @Autowired annotaion?
-  @Autowired annotation is used for tpe injection while @Resource is used for name injection.
+  @Autowired annotation is used for type injection while @Resource is used for name injection.
 
 What is the @RestController annotation in Spring Boot?
   @RestController is a Spring Boot annotation used to create RESTful web services.
