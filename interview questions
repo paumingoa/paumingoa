@@ -113,7 +113,7 @@ What is Spring Boot and what are the benefits?
 
 What is dependency injection?
   Its a programming technique that makes a class independent of its dependencies.
-  
+
 What are the key dependencies of Spring Boot?
   spring-boot-starter-parent
   spring-boot-maven-plugin
@@ -155,7 +155,7 @@ What is the difference in @Resource and @Autowired annotaion?
 What is the @RestController annotation in Spring Boot?
   @RestController is a Spring Boot annotation used to create RESTful web services.
 
-What is @RequestMapping annotaion in Spring Boot?
+What is @RequestMapping annotation in Spring Boot?
   @RequestMapping is a Spring Boot annotation used to map a URL request to a controller method.
 
 What is Controller and RestController?
