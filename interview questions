@@ -12,7 +12,7 @@ What is an Object and Class?
   Class is a blueprint for creating objects, it is composed of name, attributes and methods. We use the "class" keyword to create a class.
 
 Define package in Java.
-  The package is a collective bundle of classes and interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
+  The package is a collection of classes, interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
 
 Differentiate instance and local variables.
   Instance variables are declared inside a class and the scope of variables is limited to only a specific object while a local variable can be anywhere inside a method or a specific block of code and also the scope is limited to the code segment where the variable is declared.
