@@ -131,7 +131,10 @@ What are the basic annotations that Spring offers?
   @Repository - indicates that an annotated class is a repository, which is an abstraction of data access and storage.
 
 What is the main function in springboot and its role?
-  @SpringBootApplication, it loads the container and many default components.
+  @SpringBootApplication, it loads the container and many default components. It is equivalent to using @Configuration, @EnableAutoConfiguration and @ComponentScan.
+  @Configuration - allows to register extra beans in the context or import additional configuration classes.
+  @EnableAutoConfiguration - enables Spring boot's auto-configuration mechanism.
+  @ComponentScan - enable @Conponent scan the package where the application is located.
 
 What are the advantages of Spring Boot?
   It is very simple to create Spring-based apps in Java.
