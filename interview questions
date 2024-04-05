@@ -62,6 +62,12 @@ What is the purpose of the static keyword?
 Explain the differences between ArrayList and LinkedList.
   Arraylist uses dynamic array to store elements and its better in storing and accessing data while LinkedList uses double linked list to store elements and its better for manipulating data.
 
+Loops in Java.
+  For loop, while loop and do while loop.
+
+Difference of while loop and do while loop.
+  
+
 What is JDBC?
   JDBC means Java Database Connector. It is used to establish connectivity between an existing database and a Java application.
 
@@ -89,7 +95,7 @@ What is the difference between EAR file, JAR file and WAR file?
   (WAR) The web application in Java that is to be deployed on servlet or JSP container is to converted into .war files and can be deployed using Tomcat browser; .war file can have .jsp, html, .js and any files which would be necessary for a web application.
 
 ORM (Hibernate / JPA)
-  JPA is a specification in Java taht is used to access, manage and persist data between Java object and relational database. JPA is also considered he standard for Object Relational Mapping (ORM).
+  JPA is a specification in Java that is used to access, manage and persist data between Java object and relational database. JPA is also considered he standard for Object Relational Mapping (ORM).
   Hibernate is used to store the Java objects in the relational database system. It is an implementation of JPA so it follows the common standards provided by the JPA.
 
 What is Garbage Collection?
