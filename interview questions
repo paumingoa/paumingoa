@@ -45,7 +45,7 @@ What is the best way to inject dependency? Also, state the reason.
   Constructor injection. A class requesting its dependencies through its function Object() is the most typical instance of dependency injection. Since the client cannot be constructed without the required dependencies, this guaranteed that it is always in a correct state.
 
 Explain "this" keyword in java.
-  The "this" is used to refer to the current class properties like method, instance, variable and constructors.
+  The "this" keyword refers to the current class properties like method, instance, variable and constructors.
 
 Explain "super" keyword in java.
   The "super" keyword refers to the immediate parent class object.
@@ -62,17 +62,17 @@ What is the purpose of the static keyword?
 Explain the differences between ArrayList and LinkedList.
   Arraylist uses dynamic array to store elements and its better in storing and accessing data while LinkedList uses double linked list to store elements and its better for manipulating data.
 
-Loops in Java.
+Different types of loops in Java.
   For loop, while loop and do while loop.
 
 Difference of while loop and do while loop.
-  
+  While Loop evaluates the condition first and then executes the statement, whereas Do-While first executes the statements and then evaluates the condition.
 
 What is JDBC?
   JDBC means Java Database Connector. It is used to establish connectivity between an existing database and a Java application.
 
 What is the .equals() method used for, and how is it different from ==?
-  The == checks if both objects point to the same memory location while .equals() evaluates to the comparison of values in the objects.
+  The == checks if both objects point to the same memory location while .equals() checks if both objects have the same value
 
 What is method overloading and method overriding? How do they differ?
   We can define multiple methods with the same name but with different parameters in method overloading while the method overriding provides the specific implementation for the method that is already provided in the parent class.
@@ -99,7 +99,7 @@ ORM (Hibernate / JPA)
   Hibernate is used to store the Java objects in the relational database system. It is an implementation of JPA so it follows the common standards provided by the JPA.
 
 What is Garbage Collection?
-  When we create more objects it is stored in memory and a Java memory can be full and it can cause the program to slow down and even crash so to avoid this from happening we can use the Garbage collection to identify and remove the objects that are no longer in use and it will free up the memory.
+ Garbage collection is used to identify and remove the objects that are no longer in use and to free up the memory.
 
 What is Threading?
   Thread allows a program to operate more efficiently by doing multiple things at the same time. 
