@@ -14,8 +14,8 @@ What is an Object and Class?
 Define package in Java.
   The package is a collection of classes, interfaces and the necessary libraries and JAR files. The use of packages helps in code reusability.
 
-Differentiate instance and local variables.
-  Instance variables are declared inside a class and the scope of variables is limited to only a specific object while a local variable can be anywhere inside a method or a specific block of code and also the scope is limited to the code segment where the variable is declared.
+Differentiate instance, static and local variables.
+  Instance variables are declared without the static keyword inside a class but outside a method. when object is created the instance variable will get the memory. Static variables is declared with tge "static" keyword insode a class but outside the method but it will only get the memory once the class loads. And local variables is declared inside a method and is only accessible within the method
 
 What is an exception?
   An exception handling in Java is considered an unexpected event that can disrupt the program's normal flow. These events can be fixed through the process of Exception Handling.
