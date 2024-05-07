@@ -75,7 +75,7 @@ What is the .equals() method used for, and how is it different from ==?
   The == checks if both objects point to the same memory location while .equals() checks if both objects have the same value
 
 What is method overloading and method overriding? How do they differ?
-  We can define multiple methods with the same name but with different parameters in method overloading while the method overriding provides the specific implementation for the method that is already provided in the parent class.
+  In method overloading we define multiple methods with the same name but with different parameters while the method overriding we provides the specific implementation for the method that is already provided in the parent class.
 
 How many types of memory areas are located by JVM?
   There are 5 types of memory areas.
