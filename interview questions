@@ -210,7 +210,7 @@ Give some common practices in optimizing SQL performance.
 
 What is the difference of GROUP_BY and ORDER_BY?
   ORDER_BY - sorts the resultSet
-  GROUP_BY - groups the rows with the same 
+  GROUP_BY - groups the rows with the same value
 
 What are tables and fields?
   A table is an organized collection of data stored in the form of rows and columns. The columns in a table are called fields.
@@ -239,6 +239,7 @@ What are the different types of SQL Joins?
   LEFT JOIN - returns all records from left table and the matched records from the right table.
   RIGHT JOIN - returns all records from the right table and the matched records from the left table.
   FULL JOIN - returns all records when there is a matched in either left or right table.
+ OUTER JOIN - returns matched values and unmatched values from either or both tables.
 
 What are the different subsets of SQL?
   DDL, DQL, DML, DCL, TCL
