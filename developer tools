@@ -22,3 +22,13 @@ Iteration flow:
 4. do some joint debugging with frontend before the smoke test for FAT environment deployment
 5. 2-3 days for bug fixing if there is some bugs that occur during the First round of testing
 6. if all bugs are fixed and there is no more issues we proceed with UAT until Production deployment
+-----------
+Java 8 features:
+>Lamda expressions - 
+>Stream API - 
+>Default methods - 
+>Functional Interfaces - 
+>Method references - 
+>Optional - 
+>Date and Time API - 
+>CompletableFuture - 
