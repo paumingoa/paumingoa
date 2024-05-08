@@ -37,11 +37,19 @@ Java 8 features:
 Springboot features
 >Auto-configuration - SB automatically configure application based on the dependencies you added to the project.
 >SpringBoot Starter - SB has starter dependencies that can be used in web development and data access.
->Embedded servers - SB has embedded servers like Tomcat so we don't need to deploy our project to a separate server during development
->
->>
->
->>>
+>Embedded servers - SB has embedded servers like Tomcat so we don't need to deploy our project to a separate server during development.
+
+Spring Framework features
+>Spring MVC - m.v.c architecture for building web applications with flexible URL mapping, support for RESTful APIs and for request handling.
+>Spring Boot - is used to creat Spring applications with minimal configuration because it provides auto-configuration and embedded servers.
+>Dependecy Injection - in DI object are passed their dependencies instead of creating them (ex. we can use the Lombok dependency to us the @Data annotation to automatically generate getters and setters for the fields in a java class.
 
 Importance of unit testing
-  With the use of unit testing we will be able to detect the bugs early and we can ensure the code quality. Unit testing also serve as a form of documentation so that it will be easier for the developers to understand how the code should behave and how its intended to use.
+  With the use of unit testing we will be able to detect the bugs early and we can ensure the code quality. Unit testing also serve as a form of documentation so that it will be easier for the developers to understand how the code should behave and how its intended to use
+
+Git commands
+>git commit -m "[commit message]": Commits the changes in the current branch to the local repository with a commit message describing the changes.
+>git push: Pushes the local commits to the remote repository.
+>git pull: Fetches changes from the remote repository and merges them into the current branch.
+>git checkout [branch]: Switches to the specified branch.
+>git merge [branch]: Merges changes from the specified branch into the current branch.
