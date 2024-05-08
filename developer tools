@@ -24,8 +24,8 @@ Iteration flow:
 6. if all bugs are fixed and there is no more issues we proceed with UAT until Production deployment
 -----------
 Java 8 features:
->Lamda expressions - 
->Stream API - 
+>Lamda expressions - are similiar to methods but they don't need a name and they can be implemented in the body of method.
+>Streams API - is used to process collections of objects.
 >Default methods - 
 >Functional Interfaces - 
 >Method references - 
