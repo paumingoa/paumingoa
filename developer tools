@@ -32,3 +32,12 @@ Java 8 features:
 >Optional - 
 >Date and Time API - 
 >CompletableFuture - 
+
+Springboot features
+>Auto-configuration - SB automatically configure application based on the dependencies you added to the project.
+>SpringBoot Starter - SB has starter dependencies that can be used in web development and data access.
+>
+>
+>>
+>
+>>>
