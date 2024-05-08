@@ -28,7 +28,7 @@ Java 8 features:
 >Lamda expressions - are similiar to methods but they don't need a name and they can be implemented in the body of method.
 >Streams API - is used to process collections of objects.
 >Default methods - 
->Functional Interfaces - 
+>Functional Interfaces - an interface that contains only one abstract method.It is designed to be used with lambda expressions or method references.
 >Method references - 
 >Optional - 
 >Date and Time API - 
