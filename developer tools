@@ -4,8 +4,9 @@ Maven 3.6.3 (SQL mapping framework)
 IntelliJ IDEA 3.2.0 IDE
 Navicat 15.0 - MySQL IDE
 mysql-installer-community-8.0.22.0
-Postman 8.6.2
-Git 2.3.0
+Postman 8.6.2 - testing web APIs
+Git 2.3.0 - version control
+Jenkins - deploy project
 
 -----------
 JD ko
@@ -36,8 +37,11 @@ Java 8 features:
 Springboot features
 >Auto-configuration - SB automatically configure application based on the dependencies you added to the project.
 >SpringBoot Starter - SB has starter dependencies that can be used in web development and data access.
->
+>Embedded servers - SB has embedded servers like Tomcat so we don't need to deploy our project to a separate server during development
 >
 >>
 >
 >>>
+
+Importance of unit testing
+  With the use of unit testing we will be able to detect the bugs early and we can ensure the code quality. Unit testing also serve as a form of documentation so that it will be easier for the developers to understand how the code should behave and how its intended to use.
