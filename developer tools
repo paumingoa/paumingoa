@@ -27,7 +27,7 @@ Iteration flow:
 Java 8 features:
 >Lamda expressions - are similiar to methods but they don't need a name and they can be implemented in the body of method.
 >Streams API - is used to process collections of objects.
->Functional Interfaces - an interface that contains only one abstract method.It is designed to be used with lambda expressions or method references.
+>Functional Interfaces - an interface that contains only one abstract method. It is designed to be used with lambda expressions or method references.
 >Method references - used as lambda expression and makes the code more concise and readable.
 
 Springboot features
@@ -38,7 +38,7 @@ Springboot features
 Spring Framework features
 >Spring MVC - m.v.c architecture for building web applications with flexible URL mapping, support for RESTful APIs and for request handling.
 >Spring Boot - is used to creat Spring applications with minimal configuration because it provides auto-configuration and embedded servers.
->Dependecy Injection - in DI object are passed their dependencies instead of creating them (ex. we can use the Lombok dependency to us the @Data annotation to automatically generate getters and setters for the fields in a java class.
+>Dependecy Injection - in DI object are passed their dependencies instead of creating them (ex. we can use the Lombok dependency to use the @Data annotation to automatically generate getters and setters for the fields in a java class.
 
 Springboot and Traditional spring framework
   Spring Boot simplifies development by providing auto-configyration and reduces boilerplate code while Spring Framework requires more manual configuration. And also, Spring Boothas embedded servers makes it easier to deployment, whereas traditional Spring applications may require external application servers.
