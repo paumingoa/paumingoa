@@ -7,3 +7,4 @@ wag nlng haha hanap nalng ako mamaya, ano sinakyan mo kahapon papunta dito?
 aww sorry
 lakad lang mula dito
 poteeekkkkk kala ko utot nag overtake nanaman hahahahahaha
+aww layo man uyyy sorry
