@@ -1,4 +1,2 @@
 Read Me!
-yaa, putek naiihi na ko
-hahaha ako nga din ehh 
-kaw na muna mag close ng MOA hahaha 10:16 out ko po
+okay, di ko na ata mahihintay yung health card namin, grabe di ko na kaya sumasakit na talaga pantog ko, need na magpa-check up
