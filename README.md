@@ -1,2 +1,2 @@
 Read Me!
-dili man, kain madami ah
+aguy batang to, daan kaba ulit mamaya or uwi pahinga maaga?
