@@ -1,3 +1,2 @@
 Read Me!
-yaa, work ka na diyan
-opo see youuuu
+yaa, putek naiihi na ko
