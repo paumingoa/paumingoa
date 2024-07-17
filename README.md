@@ -1,3 +1,2 @@
 Read Me!
-moa, close na ata wmall eh
-sge po ingat ahhh balbal
+yaa, work ka na diyan
