@@ -1,4 +1,2 @@
 Read Me!
-yaks, eww
-
-nyahahahahahaha eto pa gawa pa ko mga account ko hahaha 
+sige sige, check mo to lagi ah haha, nakainom ka ba gamot?
