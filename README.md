@@ -1,2 +1,2 @@
 Read Me!
-Dito na ko, upo lang ako sa gilid
+ngayon ko lang din namalayan wala pala ata daily logs dito hahaha kayo po ba dyan
