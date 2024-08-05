@@ -18,9 +18,9 @@ Differentiate instance, static and local variables.
   Instance variables are declared without the static keyword inside a class but outside a method. when object is created the instance variable will get the memory. Static variables is declared with tge "static" keyword insode a class but outside the method but it will only get the memory once the class loads. And local variables is declared inside a method and is only accessible within the method
 
 What is an exception?
-  An exception handling in Java is considered an unexpected event that can disrupt the program's normal flow. These events can be fixed through the process of Exception Handling.
+  An exception is considered an unexpected event that can disrupt the program's normal flow. These events can be fixed through the process of Exception Handling.
 
-How do exceptions affect the program if it doesn't handle them?
+How do exceptions affect the program if we don't handle them?
   If you don't deal with exceptions once it occurs the program will end and the code after the line where the exception occurred won't run.
 
 Describe the process of exception handling in Java.
