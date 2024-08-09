@@ -105,7 +105,7 @@ What is Threading?
   Thread allows a program to operate more efficiently by doing multiple things at the same time. 
   There are 2 ways to create a thread:
   1. extend the Thread class and override the run() method
-  2. impement the Runnable interface
+  2. implement the Runnable interface
 
 What is JDK, JRE and JVM?
   JDK (Java Development Kit) contains tools needed for Java development.
